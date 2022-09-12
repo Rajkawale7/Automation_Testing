@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.testing.AutoIT">
+      <class name="com.selenium.testing.FindElements">
         <methods>
-          <include name="UploadResume"/>
+          <include name="findLinks"/>
         </methods>
-      </class> <!-- com.selenium.testing.AutoIT -->
+      </class> <!-- com.selenium.testing.FindElements -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
