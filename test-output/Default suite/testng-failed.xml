@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.testing.FindElements">
+      <class name="com.selenium.testing.WebTable">
         <methods>
-          <include name="findLinks"/>
+          <include name="fetchWebTable"/>
         </methods>
-      </class> <!-- com.selenium.testing.FindElements -->
+      </class> <!-- com.selenium.testing.WebTable -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

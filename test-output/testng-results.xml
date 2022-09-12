@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-12T22:43:13 IST" name="Default suite" finished-at="2022-09-12T22:44:57 IST" duration-ms="104339">
+  <suite started-at="2022-09-13T00:09:21 IST" name="Default suite" finished-at="2022-09-13T00:09:24 IST" duration-ms="3000">
     <groups>
     </groups>
-    <test started-at="2022-09-12T22:43:13 IST" name="Default test" finished-at="2022-09-12T22:44:57 IST" duration-ms="104339">
-      <class name="com.selenium.testing.FindElements">
-        <test-method signature="findLinks()[pri:0, instance:com.selenium.testing.FindElements@7f552bd3]" started-at="2022-09-12T22:43:13 IST" name="findLinks" finished-at="2022-09-12T22:44:57 IST" duration-ms="104310" status="PASS">
+    <test started-at="2022-09-13T00:09:21 IST" name="Default test" finished-at="2022-09-13T00:09:24 IST" duration-ms="3000">
+      <class name="com.selenium.testing.WebTable">
+        <test-method signature="fetchWebTable()[pri:0, instance:com.selenium.testing.WebTable@7f552bd3]" started-at="2022-09-13T00:09:21 IST" name="fetchWebTable" finished-at="2022-09-13T00:09:24 IST" duration-ms="2971" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findLinks -->
-      </class> <!-- com.selenium.testing.FindElements -->
+        </test-method> <!-- fetchWebTable -->
+      </class> <!-- com.selenium.testing.WebTable -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
