@@ -12,11 +12,12 @@ public class FindElements {
 	
 	@Test
 	public void findLinks() {
+		try {
 		
 		System.setProperty("webdriver.edge.driver", "C:\\Users\\Raj Kawale\\Downloads\\edgedriver_win64\\msedgedriver.exe");
 		WebDriver driver = new EdgeDriver(); //initialize the driver
 		
-		driver.get("https://www.guru99.com/use-autoit-selenium.html");
+		driver.get("https://github.com/Rajkawale7");
 		//Creating list and storing all links from provided web page
 		List<WebElement> TotalLinks = driver.findElements(By.tagName("a"));
 		
@@ -41,6 +42,11 @@ public class FindElements {
 		}
 		System.out.println("Total Number of visible links: " + TotalVisibleLinks );
 		System.out.println("Total Number of Hidden Links: " + TotalHiddenLinks);
+		
+		//TotalLinks.get(41).click();    //Fetching link of number 41
 		driver.close();    //Closing web page
+		}catch(Exception e){
+			e.printStackTrace();
+		}
 	}
 }

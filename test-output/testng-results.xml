@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-13T00:09:21 IST" name="Default suite" finished-at="2022-09-13T00:09:24 IST" duration-ms="3000">
+  <suite started-at="2022-09-13T22:42:50 IST" name="Default suite" finished-at="2022-09-13T22:42:56 IST" duration-ms="6874">
     <groups>
     </groups>
-    <test started-at="2022-09-13T00:09:21 IST" name="Default test" finished-at="2022-09-13T00:09:24 IST" duration-ms="3000">
-      <class name="com.selenium.testing.WebTable">
-        <test-method signature="fetchWebTable()[pri:0, instance:com.selenium.testing.WebTable@7f552bd3]" started-at="2022-09-13T00:09:21 IST" name="fetchWebTable" finished-at="2022-09-13T00:09:24 IST" duration-ms="2971" status="PASS">
+    <test started-at="2022-09-13T22:42:50 IST" name="Default test" finished-at="2022-09-13T22:42:56 IST" duration-ms="6874">
+      <class name="com.selenium.testing.DropdownHandling">
+        <test-method signature="selectOption()[pri:0, instance:com.selenium.testing.DropdownHandling@be64738]" started-at="2022-09-13T22:42:50 IST" name="selectOption" finished-at="2022-09-13T22:42:56 IST" duration-ms="6840" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fetchWebTable -->
-      </class> <!-- com.selenium.testing.WebTable -->
+        </test-method> <!-- selectOption -->
+      </class> <!-- com.selenium.testing.DropdownHandling -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

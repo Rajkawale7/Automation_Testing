@@ -21,7 +21,7 @@ public class WebTable {
 		//Using list
 		List <WebElement> Rows = driver.findElements(By.xpath("//tr")); 
 		int TotalRows = Rows.size(); 
-		System.out.println("Total number of rows are:"+ TotalRows);
+		System.out.println("Total number of rows are: "+ TotalRows);
 		
 		//***2*** Counting total number of Columns are in table
 		List<WebElement> Columns = driver.findElements(By.xpath("//th"));
@@ -35,22 +35,21 @@ public class WebTable {
 		
 		//***4*** Printing ages of peoples
 		int NumberOfPersons = 0;
-		int sumOfAges = 0;
+		int sum = 0;
 		for (WebElement webElement : Cells) {
 			String Data = webElement.getText();
 			
 			try {
-				int age = Integer.parseInt(Data);
-				System.out.print("The persons with ages are: " + age);
+				int age = Integer.valueOf(Data);
+				System.out.println("The person with age is: " + age);
 				NumberOfPersons++;
-				sumOfAges = sumOfAges + NumberOfPersons;
+				sum = sum + NumberOfPersons;
 				
 			}catch (Exception e) {
-				e.printStackTrace();
 			}
 		}		
-		System.out.println("Total number of person are: " + NumberOfPersons );
-		System.out.println("Total addition of all person's age are: " + sumOfAges );
+		System.out.println("Total number of persons are: " + NumberOfPersons );
+		System.out.println("Total sum: " + sum );
 		driver.close(); //closing web table
 	} 
 }

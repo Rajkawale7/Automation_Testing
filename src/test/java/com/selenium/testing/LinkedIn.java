@@ -5,7 +5,6 @@ import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;
@@ -13,6 +12,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.Test;
 
 import com.bridgelabz.selenium.main.Base;
 
@@ -82,8 +82,15 @@ public class LinkedIn extends Base{
         //Height of element
         int ImageHeight = Image.getSize().getHeight();
         System.out.println("The Height of image is: " + ImageHeight + " Pixel");
-
-        //**6** Closing the current window
+        
+        //**6** Navigating web page
+        driver.navigate().back();
+        driver.navigate().forward();
+        driver.navigate().refresh();
+        driver.navigate().to("http://www.google.com");
+        Thread.sleep(5000);
+        
+        //**7** Closing the current window
         driver.close();
         
 		} catch (Exception e){

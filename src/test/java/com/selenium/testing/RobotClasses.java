@@ -22,7 +22,7 @@ public class RobotClasses {
 			Robot RobotKey = new Robot();
 			
 			//Moving mouse in x & Y coordinates
-			RobotKey.mouseMove(700, 900);
+			RobotKey.mouseMove(700, 900); 
 			Thread.sleep(5000);
 			driver.close();
 			
