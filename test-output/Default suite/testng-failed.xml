@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.testing.FindElements">
+      <class name="com.selenium.testing.ActionClass_RightClick">
         <methods>
-          <include name="findLinks"/>
+          <include name="rightClick"/>
         </methods>
-      </class> <!-- com.selenium.testing.FindElements -->
+      </class> <!-- com.selenium.testing.ActionClass_RightClick -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
