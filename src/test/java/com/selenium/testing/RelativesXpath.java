@@ -20,10 +20,12 @@ public class RelativesXpath {
 		    
 		    driver.get("https://www.amazon.in/");
 		    WebElement element = driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]"));
+		    //Entering keyword mobile to search
 		    element.sendKeys("Mobile");
 		    Thread.sleep(4000);
 		    element.clear();
 		    
+		    //Entering keyword Laptops to search
 		    element.sendKeys("Laptop");
 		    element.sendKeys(Keys.ENTER);
 		    Thread.sleep(3000);
